@@ -1,0 +1,30 @@
+#logo {
+    display: flex;
+    gap: .5em;
+    padding: .5em 1em;
+    place-items: center;
+    border-radius: 1em 1em 0 0;
+    min-height: 100%;
+    background-color: #000a;
+	border: 1px #fff4 solid;
+	box-shadow: 2px 2px 2em #0006;
+    font-weight: bold;
+}
+
+#logo span {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+}
+
+#logo span:first-child {
+    background-color: green;
+}
+
+#logo span:nth-child(2) {
+    background-color: yellowgreen;
+}
+
+#logo span:last-child {
+    background-color: yellow;
+}

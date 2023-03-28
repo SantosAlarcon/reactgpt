@@ -1,0 +1,20 @@
+@media screen and (max-width: 425px) {
+    #root {
+        width: 95vw;
+        padding: 0;
+    }
+
+    main {
+        font-size: 0.6em;
+        padding: 0.75rem !important;
+    }
+
+    #logo {
+        padding: .25em .5em !important;
+    }
+
+    #logo span {
+        height: 8px !important;
+        width: 8px !important;
+    }
+}

@@ -1,0 +1,62 @@
+#modal-bienvenida {
+    position: absolute;
+    backdrop-filter: blur(5px);
+    background-color: #111d;
+    padding: 0;
+    width: 45vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    box-shadow: 10px 10px 5px #222;
+    left: calc(100vw / 3.6);
+}
+
+#modal-titulo {
+    font-weight: bolder;
+    padding: .75em;
+    display: flex;
+    place-items: center;
+    justify-content: start;
+    min-width: 100%;
+}
+
+#modal-titulo span {
+    min-width: 15px;
+    min-height: 15px;
+    border-radius: 100%;
+    margin-left: .5em;
+}
+
+#modal-titulo span:first-child {
+    background-color: green;
+}
+
+#modal-titulo span:nth-child(2) {
+    background-color: greenyellow;
+}
+
+#modal-titulo span:last-child {
+    margin-right: .5em;
+    background-color: yellow;
+}
+
+#modal-cuerpo {
+    padding: 1em;
+}
+
+#boton-comenzar {
+    padding: 1em 0;
+}
+
+#boton-comenzar button {
+    background-color: black;
+    border: none;
+    outline: none;
+    transition: .2s ease-in-out;
+}
+
+#boton-comenzar button:hover {
+    box-shadow: inset 0 0 .2em #88f, 0 0 1em #88f;
+    background-color: #228;
+}

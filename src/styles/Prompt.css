@@ -1,0 +1,30 @@
+.prompt {
+    display: flex;
+    gap: 1em;
+    place-items: center; 
+    text-shadow: 0 0 .25em #ff0, 0 0 .25em #ff0, 0 0 .25em #ff0;
+    color: yellow;
+    font-size: 1.25em;
+    padding: .5em 0;
+}
+
+.prompt:before {
+    content: ">>>";
+}
+
+.prompt input {
+    border: none;
+    outline: none;
+    background: none;
+    width: 100%;
+    font-family: "JetBrains Mono";
+    text-shadow: 0 0 .25em #ff0, 0 0 .25em #ff0, 0 0 .25em #ff0;
+    color: yellow;
+    font-size: .8em;
+    user-select: none;
+}
+
+.prompt input::placeholder {
+    color: #ff06;
+    text-shadow: 0 0 .25em #ff06, 0 0 .25em #ff06, 0 0 .25em #ff06;
+}

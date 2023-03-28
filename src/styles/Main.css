@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap');
+
+main {
+	margin: 0 auto;
+	padding: 0.75rem 2rem;
+	background-color: #000a;
+	border-radius: 0 0 1em 1em;
+	min-height: 30vh;
+	border: 1px #fff4 solid;
+	box-shadow: 2px 2px 2em #0006;
+    font-family: "JetBrains Mono";
+    user-select: none;
+}
+
+main b {
+    font-weight: 900;
+}
+
+#respuesta-gpt {
+    font-weight: 900;
+    padding: 1em 0;
+    white-space: pre-wrap;
+}

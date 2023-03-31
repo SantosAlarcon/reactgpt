@@ -1,6 +1,6 @@
 import { Configuration, OpenAIApi } from "openai";
 
-const apiKey = import.meta.env.GPTKEY;
+const apiKey = import.meta.env.VITE_GPTKEY;
 const configuration = new Configuration({ apiKey });
 
 const openai = new OpenAIApi(configuration);

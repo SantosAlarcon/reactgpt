@@ -6,7 +6,7 @@ const Logo = () => {
         <span></span>
         <span></span>
         <span></span>
-        ReactGPT
+        ReactGPT ({process.env.USUARIO})
     </div>;
 };
 

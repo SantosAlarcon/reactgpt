@@ -1,6 +1,6 @@
 import { Configuration, OpenAIApi } from "openai";
 
-const apiKey = "YOUR-API-KEY";
+const apiKey = process.env.GPTKEY;
 const configuration = new Configuration({ apiKey });
 
 const openai = new OpenAIApi(configuration);

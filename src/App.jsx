@@ -7,7 +7,7 @@ import Prompt from "./components/Prompt";
 
 export const consolaContext = createContext(null);
 
-console.log('${import.meta.env.VITE_PRUEBA}');
+console.log('${process.env.VITE_PRUEBA}');
 
 const estadoInicial = [
     "Soy ChatGPT, tu asistente de IA desarrollado por OpenAI. Estoy a tu entera disposición.",
